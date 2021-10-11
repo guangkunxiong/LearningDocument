@@ -4,8 +4,8 @@
 
 ### 基础操作
 
+- git config  --global user.name 你的目标用户名 git config  --global user.email 你的目标邮箱名 添添加global为全局
 - git init 初始化仓库
-
 - git status 查看当前仓储的状态
 
 ```纯文本
@@ -26,7 +26,7 @@ Changes not staged for commit: --未提交的更改
 
 &ensp;&ensp;&ensp;&ensp;- git commit 直接执行 在 vim 中编辑
 
-​ - git commit am ”注释“ 添加并暂存
+ - git commit am ”注释“ 添加并暂存
 
 ```纯文本
 Please enter the commit message for your changes. Lines starting --请输入更改的提交消息。
@@ -107,6 +107,7 @@ index b682540..238473d 100644
 - git pull 获取最新的远程仓库分支
 
 ### git commit 规范
+
 commit message格式
 
 <type>(<scope>): <subject>
