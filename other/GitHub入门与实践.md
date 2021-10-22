@@ -110,7 +110,10 @@ index b682540..238473d 100644
 
 commit message格式
 
+```
 <type>(<scope>): <subject>
+```
+
 type(必须)
 
 用于说明git commit的类别，只允许使用下面的标识。
@@ -139,19 +142,23 @@ merge：代码合并。
 
 sync：同步主线或分支的Bug。
 
-scope(可选)
+**scope(可选)**
 
 scope用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
 
 例如在Angular，可以是location，browser，compile，compile，rootScope， ngHref，ngClick，ngView等。如果你的修改影响了不止一个scope，你可以使用*代替。
 
-subject(必须)
+**subject(必须)**
 
 subject是commit目的的简短描述，不超过50个字符。
 
 建议使用中文（感觉中国人用中文描述问题能更清楚一些）。
 
 结尾不加句号或其他标点符号。
+
 根据以上规范git commit message将是如下的格式：
+
+```
 fix(DAO):用户查询缺少username属性 
 feat(Controller):用户查询接口开发
+```
