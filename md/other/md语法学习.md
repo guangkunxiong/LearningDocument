@@ -12,7 +12,7 @@
 
 通过将文本设置为粗体或斜体来强调其重要性。
 
-    	#### 粗体
+        #### 粗体
 
 要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。
 
@@ -47,7 +47,7 @@
 ```
 
 > 段落 1
->
+> 
 > > 段落 2
 
 #### 带有其它元素的块引用
@@ -63,11 +63,11 @@
 ```
 
 > ##### 段落标题
->
+> 
 > - test
->
+> 
 > - test
->
+>   
 >   **嘿嘿嘿**
 
 ### 列表语法
@@ -84,7 +84,7 @@
 - This is the first list item.
 
 - Here's the second list item.
-
+  
   > A blockquote would look great below the second list item.
 
 - And here's the third list item.
@@ -93,33 +93,32 @@
 
 代码块通常采用四个空格或一个制表符缩进。当它们被放在列表中时，请将它们缩进八个空格或两个制表符。
 
-````text
+```text
 1. Open the file.
 
 2. Find the following code block on line 21：
 
    ```html
    <table>
-   	<tr>
+       <tr>
            <td>1</td>
        </tr>
    </table>
-````
+```
 
 3. Update the title to match the name of your website.
 
-````
-
+```
 1. Open the file.
 
 2.  Find the following code block on line 21：
-	```html
-	<table>
-		<tr>
-	        <td>1</td>
-	    </tr>
-	</table>
-````
+    ```html
+    <table>
+        <tr>
+            <td>1</td>
+        </tr>
+    </table>
+```
 
 3. Update the title to match the name of your website.
 
@@ -131,16 +130,15 @@
    ![百度图片](//www.baidu.com/img/540x258_2179d1243e6c5320a8dcbecd834a025d.png)
 
 3. Close the file.
-
-
 ```
 
-1.  Open the file containing the Linux mascot.
-2.  Marvel at its beauty.
+1. Open the file containing the Linux mascot.
 
-    ![百度图片](//www.baidu.com/img/540x258_2179d1243e6c5320a8dcbecd834a025d.png)
+2. Marvel at its beauty.
+   
+   ![百度图片](//www.baidu.com/img/540x258_2179d1243e6c5320a8dcbecd834a025d.png)
 
-3.  Close the file.
+3. Close the file.
 
 ### 代码块语法
 
@@ -150,7 +148,7 @@
 
 使用此功能，您可以为编写代码的任何语言添加颜色突出显示。要添加语法突出显示，请在受防护的代码块之前的反引号旁边指定一种语言。
 
-````
+```
 ​```json
 {
   "firstName": "John",
@@ -158,7 +156,7 @@
   "age": 25
 }
 ​```
-````
+```
 
 ```json
 {
@@ -230,7 +228,6 @@ See the section on [`code`](#code).
 [![百度图片](//www.baidu.com/img/540x258_2179d1243e6c5320a8dcbecd834a025d.png "test")](https://www.baidu.com)
 
 [![百度图片](//www.baidu.com/img/540x258_2179d1243e6c5320a8dcbecd834a025d.png "test")](https://www.baidu.com)
-
 ```
 
 [![百度图片](//www.baidu.com/img/540x258_2179d1243e6c5320a8dcbecd834a025d.png "test")](https://www.baidu.com)
@@ -268,11 +265,11 @@ This **word** is bold. This <em>word</em> is italic.
 区块元素 ── 比如 `<div>`、`<table>`、`<pre>`、`<p>` 等标签，必须在前后加上空行，以便于内容区分。而且这些元素的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 会自动识别这区块元素，避免在区块标签前后加上没有必要的 `<p>` 标签。
 
 <table>
-	<tr>
-   		<td>test1</td>
+    <tr>
+           <td>test1</td>
         <td>test2</td>
         <td>test3</td>
-	</tr>    
+    </tr>    
 </table>
 
 #### HTML 用法最佳实践
@@ -308,7 +305,7 @@ This **word** is bold. This <em>word</em> is italic.
 ```
 
 | test | test | Test |
-| :--- | :--: | ---: |
+|:---- |:----:| ----:|
 
 ##### 格式化表格中的文字
 

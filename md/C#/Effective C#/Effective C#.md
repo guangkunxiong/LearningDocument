@@ -1,9 +1,9 @@
 > 原版对照为《Effective C#》第三版，为 C#6.0 版本
->
+> 
 > 结合《深入理解 C#》第四版，为 C#7.0 版本。
->
+> 
 > 部分参考代码替换为 C# 8.0 版本，为手写代码大小写可能存在区别。。。
->
+> 
 > 意为打造个人使用 C#代码编程指南
 
 # C#语言编程习惯
@@ -123,10 +123,10 @@ lambda 就是一个简便的写法来表示委托。
 
 ```
 public void RaisUpdates(){
-	counter++;
-	if(Updated is not null){//Updated是一个委托
-		Updated(this,counter);
-	}
+    counter++;
+    if(Updated is not null){//Updated是一个委托
+        Updated(this,counter);
+    }
 }
 ```
 
@@ -134,11 +134,11 @@ public void RaisUpdates(){
 
 ```
 public void RaisUpdates(){
-	counter++;
-	var handler=Updated;//使用浅拷贝保留事件处理程序
-	if(handler is not null){
-		handler(this,counter);
-	}
+    counter++;
+    var handler=Updated;//使用浅拷贝保留事件处理程序
+    if(handler is not null){
+        handler(this,counter);
+    }
 }
 ```
 
@@ -148,8 +148,8 @@ public void RaisUpdates(){
 
 ```
 public void RaisUpdates(){
-	counter++;
-	Updated?.Invoke(this,counter);
+    counter++;
+    Updated?.Invoke(this,counter);
 }
 ```
 
@@ -196,37 +196,37 @@ public void RaisUpdates(){
 三种情况不应该使用：
 
 - 把对象初始化为 0 或者 null，系统在执行开发者的代码之前，就会生成初始化逻辑，以便相关的内容全都这是为 0，这是通过底层的`cpu`指令来做的。C#编译器会按照你的要求添加相关指令，把这些内存再度清零，这虽然没错，但是会使代码变得脆弱
-
+  
   ```
   public struct MyVla{
-
+  
   }
   MyVal myVal;
   MyVal myVal2=new MyVal();
   ```
-
+  
   这两种写法都可以把变量清零，第一条语句是吧包含`myVal`的内存设置为 0，第二天则是采用`intobj`这个条 IL 语句来清零，会触发正对 myVal2 变量的妆效与接触装箱操作。
 
 - 如果不同的构造函数需要按照各自的方式来设定某一个字段的初始值，那么就要在编写初始化语句来。声明时的赋值会被构造函数中赋值所取代，等于创建两个。
-
+  
   ```
   class MyCalss{
-  	private List<string> strs=new List<string>();
-  	MyClass(){}
-  	MyCalss(int size){
-  		strs=new List<string>(size);
-  	}
+      private List<string> strs=new List<string>();
+      MyClass(){}
+      MyCalss(int size){
+          strs=new List<string>(size);
+      }
   }
   在编译器中相当于
   class MyCalss{
-  	private List<string> strs;
-  	MyClass(){
-  		strs=new List<string>();
-  	}
-  	MyCalss(int size){
-  		strs=new List<string>();
-  		strs=new List<string>(size);
-  	}
+      private List<string> strs;
+      MyClass(){
+          strs=new List<string>();
+      }
+      MyCalss(int size){
+          strs=new List<string>();
+          strs=new List<string>(size);
+      }
   }
   ```
 

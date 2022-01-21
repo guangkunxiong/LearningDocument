@@ -46,8 +46,6 @@ Redis 的 5 大基本数据类型：String、List、Hash、Set 和 Sorted Set，
 
 GEO 类型是把经纬度所在的区间编码作为 Sorted Set 中元素的权重分数，把和经纬度相关的车辆 ID 作为 Sorted Set 中元素本身的值保存下来，这样相邻经纬度的查询就可以通过编码值的大小范围查询来实现了。
 
-
-
 ## 如何操作GEO类型？
 
 - GEOADD 命令：用于把一组经纬度信息和相对应的一个 ID 记录到 GEO 类型集合中；
@@ -169,26 +167,24 @@ robj *createObject(int type, void *ptr) {
 简单来说，增加相应的命令操作的过程可以分成三小步：
 
 1. 在 t_newtype.c 文件中增加命令操作的实现。比如说，我们定义 ntinsertCommand 函数，由它实现对 NewTypeObject 单向链表的插入操作：
-
+   
    ```
    void ntinsertCommand(client *c){ //基于客户端传递的参数，实现在NewTypeObject链表头插入元素}
    ```
 
-2.  在 server.h 文件中，声明我们已经实现的命令，以便在 server.c 文件引用这个命令，例如：
-
+2. 在 server.h 文件中，声明我们已经实现的命令，以便在 server.c 文件引用这个命令，例如：
+   
    ```
    void ntinsertCommand(client *c)
    ```
 
-3.  在 server.c 文件中的 redisCommandTable 里面，把新增命令和实现函数关联起来。例如，新增的 ntinsert 命令由 ntinsertCommand 函数实现，我们就可以用 ntinsert 命令给 NewTypeObject 数据类型插入元素了。
-
+3. 在 server.c 文件中的 redisCommandTable 里面，把新增命令和实现函数关联起来。例如，新增的 ntinsert 命令由 ntinsertCommand 函数实现，我们就可以用 ntinsert 命令给 NewTypeObject 数据类型插入元素了。
+   
    ```
    struct redisCommand redisCommandTable[] = { ...{"ntinsert",ntinsertCommand,2,"m",...}}
    ```
 
 此时，我们就完成了一个自定义的 NewTypeObject 数据类型，可以实现基本的命令操作了。当然，如果你还希望新的数据类型能被持久化保存，我们还需要在 Redis 的 RDB 和 AOF 模块中增加对新数据类型进行持久化保存的代码.
-
-
 
 # 如何在Redis中保存时间序列数据？
 
@@ -310,7 +306,7 @@ OK
 
 ### 用 TS.ADD 命令插入数据
 
-###  用 TS.GET 命令读取最新数据
+### 用 TS.GET 命令读取最新数据
 
 可以用 TS.ADD 命令往时间序列集合中插入数据，包括时间戳和具体的数值，并使用 TS.GET 命令读取数据集合中的最新一条数据。
 
@@ -364,8 +360,6 @@ TS.RANGE device:temperature 1596416700 1596417120 AGGREGATION avg 180000
 
 与使用 Hash 和 Sorted Set 来保存时间序列数据相比，RedisTimeSeries 是专门为时间序列数据访问设计的扩展模块，能支持在 Redis 实例上直接进行聚合计算，以及按标签属性过滤查询数据集合，当我们需要频繁进行聚合计算，以及从大量集合中筛选出特定设备或用户的数据集合时，RedisTimeSeries 就可以发挥优势了。
 
-
-
 ****
 
 # 无锁的原子操作：Redis如何应对并发访问？
@@ -400,4 +394,3 @@ Redis 是使用单线程来串行处理客户端的请求操作命令的，所�
 虽然 Redis 的单个命令操作可以原子性地执行，但是在实际应用中，数据修改时可能包含多个操作，至少包括读数据、数据增减、写回数据三个操作，这显然就不是单个命令操作了。Redis 提供了 INCR/DECR 命令，把这三个操作转变为一个原子操作了。INCR/DECR 命令可以对数据进行增值 / 减值操作，而且它们本身就是单个命令操作，Redis 在执行它们时，本身就具有互斥性。
 
 # 如何使用Redis实现分布式锁
-

@@ -1,4 +1,4 @@
-# GitHub 入门与实践
+# Git入门与实践
 
 ## Git 基础
 
@@ -26,7 +26,7 @@ Changes not staged for commit: --未提交的更改
 
 &ensp;&ensp;&ensp;&ensp;- git commit 直接执行 在 vim 中编辑
 
- - git commit am ”注释“ 添加并暂存
+- git commit am ”注释“ 添加并暂存
 
 ```纯文本
 Please enter the commit message for your changes. Lines starting --请输入更改的提交消息。
@@ -72,7 +72,7 @@ index b682540..238473d 100644
 - git branch 显示分支一览
 
 - git checkout -b 创建切换分支
-
+  
   ```
   git checkout -b dev
   Switched to a new branch 'dev'
@@ -84,7 +84,7 @@ index b682540..238473d 100644
 - git checkout - 切换到上一个分支
 
 - git merge 合并分支
-
+  
   ```
   git checkout master
   git merge --no-ff dev 合并分支
