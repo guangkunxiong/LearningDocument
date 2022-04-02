@@ -69,7 +69,7 @@ React 的世界里只有 JSX，最终 JSX 都会在 Compiler 那一层，也就�
 
 ### Vue2
 
-![image-20220310103431210](C:\xx\GitHub\LearningDocument\md\前端\vue.assets\image-20220310103431210-16468796726953.png)
+![image-20220310103431210](C:\hhh\GitHub\LearningDocument\md\前端\vue.assets\image-20220310103431210-16468796726953.png)
 
 首先从开发维护的角度看，Vue 2 是使用 Flow.js 来做类型校验。但现在 Flow.js 已经停止维护了，整个社区都在全面使用 TypeScript 来构建基础库，Vue 团队也不例外。
 
@@ -103,7 +103,7 @@ Vue 2 内部所有的模块都是揉在一起的，这样做会导致不好扩�
 
 在 Vue 3 的组织架构中，响应式独立了出来。而 Vue 2 的响应式只服务于 Vue，Vue 3 的响应式就和 Vue 解耦了，你甚至可以在 Node.js 和 React 中使用响应式。**渲染的逻辑也拆成了平台无关渲染逻辑和浏览器渲染 API 两部分 。**
 
-在这个架构下，Node 的一些库，甚至 React 都可以依赖响应式。在任何时候，如果你希望数据被修改了之后能通知你，你都可以单独依赖 Vue 3 的响应式。你想使用 Vue 3 开发小程序、开发 canvas 小游戏以及开发客户端的时候，就不用全部 fork Vue 的代码，只需要实现平台的渲染逻辑就可以。![image-20220310104742104](C:\xx\GitHub\LearningDocument\md\前端\vue.assets\image-20220310104742104-16468804633215.png)
+在这个架构下，Node 的一些库，甚至 React 都可以依赖响应式。在任何时候，如果你希望数据被修改了之后能通知你，你都可以单独依赖 Vue 3 的响应式。你想使用 Vue 3 开发小程序、开发 canvas 小游戏以及开发客户端的时候，就不用全部 fork Vue 的代码，只需要实现平台的渲染逻辑就可以。![image-20220310104742104](..\前端\vue.assets\image-20220310104742104-16468804633215.png)
 
 #### 全部模块使用 TypeScript 重构
 
@@ -121,8 +121,8 @@ Vite 不在 Vue 3 的代码包内，和 Vue 也不是强绑定，Vite 的竞品�
 
 Webpack:
 
-![image-20220310110010568](C:\xx\GitHub\LearningDocument\md\前端\vue.assets\image-20220310110010568.png)
+![image-20220310110010568](..\前端\vue.assets\image-20220310110010568.png)
 
 Vite:
 
-![image-20220310110046329](C:\xx\GitHub\LearningDocument\md\前端\vue.assets\image-20220310110046329.png)
+![image-20220310110046329](..\前端\vue.assets\image-20220310110046329.png)
