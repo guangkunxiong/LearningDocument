@@ -379,4 +379,5 @@ HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload) , secret)
 
 应该把明文密码这种东西当成是最烫手的山芋来看待，越早消灭掉越好。毕竟把一个潜在的炸弹从客户端运到服务端，对绝大多数系统来说都没有必要。
 
-极客时间版权所有: https://time.geekbang.org/column/article/334293
+# 分布式共识
+

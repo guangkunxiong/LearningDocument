@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "9fcb80233baa00ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "6471ad1d45047fe2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd40b6f281d8d531",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4d3f556757509e1f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e9a5abf625d24ebf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "89bca55a5626d050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/SQL Server 2012 T-SQL/T-SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3d236cd4c4091cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/SQL Server 2012 T-SQL/T-SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d4dc8cdae70704e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "简历/项目亮点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62d7cc8cbb7b07cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "96686408106c9c8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33398af68ac1277b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fcb39961d76ca0e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4931d3c706827686",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5
+  },
+  "right": {
+    "id": "9bccd06d56ae129d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1c41c54864d9260",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64a0e9d4b767f79d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "简历/项目亮点.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab352f6553199aba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "简历/项目亮点.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f1603e562d674ea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2f162b9e63f74f01",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "简历/项目亮点.md"
+              }
+            }
+          },
+          {
+            "id": "1ae656aaa8509b53",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "82a345cf0a10af4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e9c55f4bf637001",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "3d4dc8cdae70704e",
+  "lastOpenFiles": [
+    "项目/Rust资源预定系统.md",
+    "数据库/SQL Server 2012 T-SQL/T-SQL.md",
+    "数据库/SQL Server 2012 T-SQL/索引.md",
+    "数据库/SQL必知必会/性能优化.md",
+    "数据库/SQL必知必会/基础篇.md",
+    "数据结构和算法/队列.md",
+    "简历/项目亮点.md",
+    "Templates/Day Planner模板.md",
+    "Day Planners/Day Planner-20221024.md",
+    "Day Planners/Day Planner-20221021.md"
+  ]
+}
