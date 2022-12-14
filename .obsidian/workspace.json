@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "48eeab7c9a648386",
+    "type": "split",
+    "children": [
+      {
+        "id": "d82c9a944422a4dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fc5eb17a80527ce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e9d3a86ee0b64a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9808eae9230819a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50d2f3af28081a64",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb70d2c5f9fc6bea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96f094421a5c8ae4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c88f0528d015beee",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb1c5eef3f6c7e20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0260fb026a0573f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "06a659c0a0b5c63c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "280527bc5781339a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e49306aff2e51623",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "50d2f3af28081a64",
+  "lastOpenFiles": [
+    "md/从头开始/-。-.md",
+    "md/从头开始/JavaScript/第一章.md",
+    "md/从头开始/从头开始学习C#/第一章.md",
+    "md/从头开始/从头开始学习C#/第三章.md",
+    "md/从头开始/从头开始学习C#/第二章.md",
+    "hhh/Templates/Day Planner模板.md",
+    "hhh/数据库/SQL必知必会/性能优化.md",
+    "hhh/数据库/SQL必知必会/基础篇.md",
+    "hhh/数据库/SQL Server 2012 T-SQL/T-SQL.md",
+    "hhh/数据库/SQL Server 2012 T-SQL/索引.md"
+  ]
+}
