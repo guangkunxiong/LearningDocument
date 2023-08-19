@@ -4,6 +4,7 @@
   "switcher",
   "graph",
   "backlink",
+  "canvas",
   "outgoing-link",
   "tag-pane",
   "page-preview",
@@ -11,9 +12,12 @@
   "templates",
   "note-composer",
   "command-palette",
+  "slash-command",
   "editor-status",
-  "starred",
+  "bookmarks",
+  "markdown-importer",
   "outline",
   "word-count",
+  "slides",
   "file-recovery"
 ]

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d82c9a944422a4dd",
+        "id": "d9cb8da0308a3670",
         "type": "tabs",
         "children": [
           {
-            "id": "3fc5eb17a80527ce",
+            "id": "41fa50e461cdaf18",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "md/前端/vue/vue.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -60,8 +64,25 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "df6afc4aa6f59e9e",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "234552f39b085aaa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -81,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "md/前端/vue/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "md/前端/vue/vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,27 +141,55 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "md/前端/vue/vue.md"
+              }
+            }
+          },
+          {
+            "id": "59d9ae5973d34a69",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "50d2f3af28081a64",
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "41fa50e461cdaf18",
   "lastOpenFiles": [
-    "md/从头开始/-。-.md",
-    "md/从头开始/JavaScript/第一章.md",
-    "md/从头开始/从头开始学习C#/第一章.md",
-    "md/从头开始/从头开始学习C#/第三章.md",
-    "md/从头开始/从头开始学习C#/第二章.md",
-    "hhh/Templates/Day Planner模板.md",
-    "hhh/数据库/SQL必知必会/性能优化.md",
-    "hhh/数据库/SQL必知必会/基础篇.md",
-    "hhh/数据库/SQL Server 2012 T-SQL/T-SQL.md",
-    "hhh/数据库/SQL Server 2012 T-SQL/索引.md"
+    "md/前端/web性能/img/NeatReader-1625216514233.png",
+    "md/前端/JavaScript高级程序设计.md",
+    "DotNet 内存管理/内存分区.md",
+    "ather/草缸.md",
+    "DotNet 内存管理/DotNet基础知识.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "book/快乐的linux命令行.pdf",
+    "book/社会工程：安全体系中的人性漏洞.pdf",
+    "book/DOT NET高级调试.pdf",
+    "hhh/简历/项目亮点.md",
+    "计算机体系结构.md",
+    "Masa Framework.md",
+    "md/other/ideavim学习.md"
   ]
 }
