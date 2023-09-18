@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "254a0ebe3827416a",
+            "id": "1cdda849e3e1d0d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1cdda849e3e1d0d5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,6 +147,12 @@
   },
   "active": "1cdda849e3e1d0d5",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "未命名.md",
+    "md/前端/CSS.md",
+    "md/前端/JavaScript高级程序设计.md",
+    "md/前端/JavaScript悟道.md",
+    "md/前端/web性能/Web性能.md",
     "md/dotnet/C#异步代码.md",
     "md/dotnet/内存分区.md",
     "md/数据库/SQL必知必会/性能优化.md",
@@ -167,15 +161,11 @@
     "md/数据库/SQL Server 2012 T-SQL/索引.md",
     "md/区块链/区块链.md",
     "md/区块链/分布式.md",
-    "md/前端/JavaScript悟道.md",
-    "md/前端/JavaScript高级程序设计.md",
     "assets/CleanShot 2023-08-24 at 07.03.34@2x.png",
-    "md/前端/CSS.md",
     "md/前端/浏览器.md",
     "CleanShot 2023-08-24 at 07.03.34@2x.png",
     "assets/CleanShot 2023-08-23 at 07.14.40@2x.png",
     "assets",
-    "未命名.md",
     "md/Phoenix.md",
     "md/dotnet/DotNet基础知识.md",
     "md/dotnet/C#中的只读.md",
