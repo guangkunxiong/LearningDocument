@@ -1,39 +1,50 @@
 {
   "main": {
-    "id": "48eeab7c9a648386",
+    "id": "b853afc03e81dbd7",
     "type": "split",
     "children": [
       {
-        "id": "d9cb8da0308a3670",
+        "id": "900ff1338b47b4b7",
         "type": "tabs",
         "children": [
           {
-            "id": "41fa50e461cdaf18",
+            "id": "254a0ebe3827416a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "md/前端/vue/vue.md",
+                "file": "md/前端/CSS.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "1cdda849e3e1d0d5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9e9d3a86ee0b64a7",
+    "id": "12f96255d173b4e2",
     "type": "split",
     "children": [
       {
-        "id": "9808eae9230819a2",
+        "id": "5de3df88d6c9914c",
         "type": "tabs",
         "children": [
           {
-            "id": "50d2f3af28081a64",
+            "id": "cc65e96f87c83971",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +54,7 @@
             }
           },
           {
-            "id": "cb70d2c5f9fc6bea",
+            "id": "2722d302dde8587f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,51 +69,34 @@
             }
           },
           {
-            "id": "96f094421a5c8ae4",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "df6afc4aa6f59e9e",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "234552f39b085aaa",
+            "id": "759a521f7652d8a9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "c88f0528d015beee",
+    "id": "aee47c485f259a67",
     "type": "split",
     "children": [
       {
-        "id": "bb1c5eef3f6c7e20",
+        "id": "3a15ddf3bf6f69ac",
         "type": "tabs",
         "children": [
           {
-            "id": "f0260fb026a0573f",
+            "id": "2e8e1fd3e9942e94",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/前端/vue/vue.md",
+                "file": "md/前端/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,19 +108,19 @@
             }
           },
           {
-            "id": "06a659c0a0b5c63c",
+            "id": "47946e28cfabdf1f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/前端/vue/vue.md",
+                "file": "md/前端/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "280527bc5781339a",
+            "id": "59004e9115e58643",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,25 +131,16 @@
             }
           },
           {
-            "id": "e49306aff2e51623",
+            "id": "0f55a02e286115c9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/前端/vue/vue.md"
+                "file": "md/前端/CSS.md"
               }
             }
-          },
-          {
-            "id": "59d9ae5973d34a69",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,32 +149,44 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "41fa50e461cdaf18",
+  "active": "1cdda849e3e1d0d5",
   "lastOpenFiles": [
-    "md/前端/web性能/img/NeatReader-1625216514233.png",
+    "md/dotnet/C#异步代码.md",
+    "md/dotnet/内存分区.md",
+    "md/数据库/SQL必知必会/性能优化.md",
+    "md/数据库/SQL必知必会/基础篇.md",
+    "md/数据库/SQL Server 2012 T-SQL/T-SQL.md",
+    "md/数据库/SQL Server 2012 T-SQL/索引.md",
+    "md/区块链/区块链.md",
+    "md/区块链/分布式.md",
+    "md/前端/JavaScript悟道.md",
     "md/前端/JavaScript高级程序设计.md",
-    "DotNet 内存管理/内存分区.md",
-    "ather/草缸.md",
-    "DotNet 内存管理/DotNet基础知识.md",
-    "未命名 1.canvas",
-    "未命名.canvas",
-    "book/快乐的linux命令行.pdf",
-    "book/社会工程：安全体系中的人性漏洞.pdf",
+    "assets/CleanShot 2023-08-24 at 07.03.34@2x.png",
+    "md/前端/CSS.md",
+    "md/前端/浏览器.md",
+    "CleanShot 2023-08-24 at 07.03.34@2x.png",
+    "assets/CleanShot 2023-08-23 at 07.14.40@2x.png",
+    "assets",
+    "未命名.md",
+    "md/Phoenix.md",
+    "md/dotnet/DotNet基础知识.md",
+    "md/dotnet/C#中的只读.md",
+    "md/other/技术重构方案.md",
+    "md/other/计算机英语.md",
+    "book/Windows 用户态程序高效排错.pdf",
     "book/DOT NET高级调试.pdf",
-    "hhh/简历/项目亮点.md",
+    "book/bash shell脚本编程经典实例（第2版）.pdf",
+    "book/社会工程：安全体系中的人性漏洞.pdf",
+    "book/快乐的linux命令行.pdf",
     "计算机体系结构.md",
-    "Masa Framework.md",
-    "md/other/ideavim学习.md"
+    "hhh/简历/项目亮点.md"
   ]
 }
