@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb2b975fb0824a0d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,6 +139,16 @@
                 "file": "md/前端/CSS.md"
               }
             }
+          },
+          {
+            "id": "bd9574e09bba7c3b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -145,7 +166,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1cdda849e3e1d0d5",
+  "active": "eb2b975fb0824a0d",
   "lastOpenFiles": [
     "未命名.canvas",
     "未命名.md",
