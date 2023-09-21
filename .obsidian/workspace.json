@@ -23,9 +23,11 @@
             "id": "eb2b975fb0824a0d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "md/前端/CSS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
