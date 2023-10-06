@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "md/前端/CSS.md",
+                "file": "2023-10-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/前端/CSS.md",
+                "file": "2023-10-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/前端/CSS.md",
+                "file": "2023-10-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/前端/CSS.md"
+                "file": "2023-10-07.md"
               }
             }
           },
@@ -152,11 +152,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,9 +172,10 @@
   },
   "active": "eb2b975fb0824a0d",
   "lastOpenFiles": [
+    "md/前端/CSS.md",
+    "2023-10-07.md",
     "未命名.canvas",
     "未命名.md",
-    "md/前端/CSS.md",
     "md/前端/JavaScript高级程序设计.md",
     "md/前端/JavaScript悟道.md",
     "md/前端/web性能/Web性能.md",
